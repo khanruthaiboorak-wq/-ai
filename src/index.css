@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme {
+  --font-heading: 'Prompt', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body: 'Sarabun', -apple-system, BlinkMacSystemFont, sans-serif;
+  --color-soil-darkgreen: #1b4332;
+  --color-soil-green: #2d6a4f;
+  --color-soil-leaf: #40916c;
+  --color-soil-accent: #52b788;
+  --color-soil-soft: #d8f3dc;
+  --color-soil-cream: #fbf9f4;
+  --color-soil-sand: #eddcd2;
+  --color-soil-earth: #7f4f24;
+  --color-soil-deepbrown: #582f0e;
+  --color-soil-clay: #936639;
+}
+
+body {
+  font-family: 'Sarabun', -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", "Segoe UI", Roboto, sans-serif;
+  background-color: #fbf9f4;
+  color: #242220;
+}
+
+h1, h2, h3, h4, h5, h6, .font-heading {
+  font-family: 'Prompt', -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+/* Accessibility font scale support */
+.font-scale-normal {
+  font-size: 16px;
+}
+
+.font-scale-large {
+  font-size: 18px;
+}
+
+.font-scale-xlarge {
+  font-size: 20px;
+}
+
+/* Custom scrollbars and touch responsiveness */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1ede4;
+}
+::-webkit-scrollbar-thumb {
+  background: #c2baa8;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9f9684;
+}

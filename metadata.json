@@ -1,0 +1,6 @@
+{
+  "name": "Soil Time - ดินดี เกษตรกรยิ้มได้",
+  "description": "แอปพลิเคชันผู้ช่วยด้านดินและการเกษตรสำหรับเกษตรกรไทย วางแผนการใส่ปุ๋ย จัดการแปลงเกษตร ผู้ช่วย AI และคลังความรู้ใช้งานได้แบบออฟไลน์",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
